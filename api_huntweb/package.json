@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_react",
+  "version": "1.0.0",
+  "description": "Aprendizado de Nodejs com front-end em react",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Antonio Vuono",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3",
+    "mongoose-paginate": "^5.0.3",
+    "nodemon": "^1.19.3",
+    "require-dir": "^1.2.0"
+  }
+}
